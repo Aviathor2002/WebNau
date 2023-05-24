@@ -31,11 +31,28 @@
   height: 30px;
 
   color: #d7e8f1;
+
+  &:hover,
+  &:focus {
+    .link-icon {
+      &.telegram {
+        fill: #279fdb;
+      }
+      &.facebook {
+        fill: #1091f3;
+      }
+      &.youtube {
+        fill: #ff0000;
+      }
+    }
+  }
 }
 
 .link-icon {
   fill: #d7e8f1;
   margin-right: 11px;
+
+  transition: fill 250ms linear;
 
   &.facebook {
     margin-right: 11px;
