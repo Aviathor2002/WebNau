@@ -7,15 +7,9 @@
 }
 
 .btn__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   background-color: #557fae;
 
   border-radius: 15px;
-  width: 200px;
-  height: 30px;
 
   &:not(:last-child) {
     margin-bottom: 15px;
@@ -30,6 +24,13 @@
 }
 
 .btn__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 30px;
+
   color: #d7e8f1;
 }
 
