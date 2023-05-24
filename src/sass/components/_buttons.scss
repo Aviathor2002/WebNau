@@ -8,7 +8,6 @@
 
 .btn__item {
   background-color: #557fae;
-
   border-radius: 15px;
 
   &:not(:last-child) {
@@ -32,6 +31,19 @@
   height: 30px;
 
   color: #d7e8f1;
+}
+
+.link-icon {
+  fill: #d7e8f1;
+  margin-right: 11px;
+
+  &.facebook {
+    margin-right: 11px;
+  }
+
+  &.youtube {
+    margin-right: 16px;
+  }
 }
 
 .btn__footer {
