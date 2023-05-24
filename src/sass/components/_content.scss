@@ -1,0 +1,21 @@
+.contact__list {
+  padding-top: 40px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact__item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.contact__text {
+  font-weight: 400;
+
+  color: #27486f;
+
+  font-size: 18px;
+}

@@ -1,0 +1,24 @@
+.tile__putivnyk {
+  display: flex;
+  justify-content: center;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 48px;
+  -webkit-text-stroke: 2px #27486f;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 1px #7c97b9;
+}
+
+.tile__chanels {
+  display: flex;
+  justify-content: center;
+
+  color: #27486f;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 18px;
+}

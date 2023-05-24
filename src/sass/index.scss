@@ -1,2 +1,16 @@
 @import './common';
-@import './example';
+
+@import './utils/variables';
+@import './utils/viewpot-mixin';
+@import './utils/title-extend';
+@import './utils/skrollbar';
+
+@import './base/container';
+@import './base/section';
+@import './base/general';
+@import './base/visually-hidden';
+
+@import './components/body';
+@import './components/title';
+@import './components/buttons';
+@import './components/content';

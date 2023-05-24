@@ -1,0 +1,36 @@
+.btn__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin: auto;
+}
+
+.btn__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #557fae;
+
+  border-radius: 15px;
+  width: 200px;
+  height: 30px;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+    background-color: #86a7cb;
+  }
+}
+
+.btn__link {
+  color: #d7e8f1;
+}
+
+.btn__footer {
+  padding-top: 100px;
+}

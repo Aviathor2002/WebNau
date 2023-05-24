@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aviathor2002/WebNau.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aviathor2002/WebNau/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "aos": "^2.3.4",
+    "install": "^0.13.0",
+    "modern-normalize": "^1.1.0",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
