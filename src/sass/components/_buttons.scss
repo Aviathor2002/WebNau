@@ -21,6 +21,8 @@
     margin-bottom: 15px;
   }
 
+  transition: background-color 250ms linear, transform 250ms ease-in-out;
+
   &:hover {
     transform: scale(1.2);
     background-color: #86a7cb;
