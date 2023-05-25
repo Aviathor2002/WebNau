@@ -17,5 +17,17 @@
 
   color: #27486f;
 
-  font-size: 18px;
+  font-size: 12px;
+}
+
+.contact__link {
+  color: #27486f;
+  text-decoration: underline;
+
+  transition: color 250ms linear;
+
+  &:hover {
+    color: #7c97b9;
+    -webkit-text-stroke: 0.2px #27486f;
+  }
 }
