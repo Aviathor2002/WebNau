@@ -18,13 +18,13 @@
 
   &:hover {
     transform: scale(1.2);
-    background-color: #86a7cb;
+    background-color: #23374d;
   }
 }
 
 .btn__link {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
   width: 200px;
@@ -48,18 +48,25 @@
   }
 }
 
+.btn__text {
+  width: 100px;
+}
+
 .link-icon {
   fill: #d7e8f1;
-  margin-right: 11px;
 
   transition: fill 250ms linear;
 
+  &.telegram {
+    // margin-right: 10px;
+  }
+
   &.facebook {
-    margin-right: 11px;
+    // margin-right: 9px;
   }
 
   &.youtube {
-    margin-right: 16px;
+    // margin-right: 10px;
   }
 }
 
