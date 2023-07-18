@@ -31,7 +31,94 @@
   <body class="background__image">
     <!-- ❗️❗️❗️ Add partials like so for every page -->
 
-    <include src="./partials/header.html"></include>
-    <include src="./partials/links.html"></include>
+    <header class="section-hader">
+      <h1 class="tile__putivnyk">Путівник</h1>
+      <h2 class="tile__chanels">Офіційних каналів НАУ</h2>
+    </header>
+
+    <main class="section content__section">
+      <ul class="btn__list">
+        <li class="btn__item">
+          <a target="_blank" class="btn__link" href="https://t.me/officialnau">
+            <svg class="link-icon telegram" width="24" height="24">
+              <use href="./svg/sprite.svg#icon-telegram"></use>
+            </svg>
+            <p class="btn__text">Telegram</p>
+          </a>
+        </li>
+        <li class="btn__item">
+          <a
+            target="_blank"
+            class="btn__link"
+            href="https://www.facebook.com/officialnau"
+            ><svg class="link-icon facebook" width="22" height="22">
+              <use href="./svg/sprite.svg#icon-facebook"></use>
+            </svg>
+            <p class="btn__text">Facebook</p>
+          </a>
+        </li>
+        <li class="btn__item">
+          <a
+            target="_blank"
+            class="btn__link"
+            href="https://www.youtube.com/@medianau"
+            ><svg class="link-icon youtube" width="26" height="26">
+              <use href="./svg/sprite.svg#icon-youtube"></use>
+            </svg>
+            <p class="btn__text">YouTube</p>
+          </a>
+        </li>
+        <li class="btn__item">
+          <a
+            target="_blank"
+            class="btn__link"
+            href="https://www.tiktok.com/@nau_tik_tok?_t=8dvqfF5fRDB&_r=1"
+            ><svg class="link-icon tiktok" width="26" height="26">
+              <use href="./svg/sprite.svg#icon-tiktok"></use>
+            </svg>
+            <p class="btn__text">TikTok</p>
+          </a>
+        </li>
+      </ul>
+
+      <section class="section contact__section">
+        <h3 class="contact__text">Контакти приймальної комісії:</h3>
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a href="mailto:pk@nau.edu.ua" class="contact__link">
+              <svg class="contacts__icon" width="16" height="16">
+                <use href="./svg/sprite.svg#mail"></use>
+              </svg>
+              pk@nau.edu.ua</a
+            >
+          </li>
+          <li class="contact__item">
+            <a href="tel:+380444974105" class="contact__link">
+              <svg class="contacts__icon" width="16" height="16">
+                <use href="./svg/sprite.svg#mobile"></use>
+              </svg>
+              +38 (044) 497 41 05</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <ul class="btn__list btn__footer">
+        <li class="btn__item">
+          <a target="_blank" class="btn__link" href="https://nau.edu.ua/">
+            Сайт НАУ
+          </a>
+        </li>
+        <li class="btn__item">
+          <a
+            target="_blank"
+            class="btn__link pk-link"
+            href="https://pk.nau.edu.ua/"
+          >
+            Сайт приймальної комісії
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
